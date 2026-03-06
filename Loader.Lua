@@ -16,6 +16,12 @@ game.StarterGui:SetCore("SendNotification", {
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/AxelHubOnTop/LoaderSaver/refs/heads/main/ATS.Lua"))()
 
+elseif placeid == 111446873000464 then
+if Premiums then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AxelHubOnTop/LoaderSaver/refs/heads/main/ARXP.Lua"))
+elseif Premiums == false then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AxelHubOnTop/LoaderSaver/refs/heads/main/ARXF.Lua"))
+end
 else
 game.StarterGui:SetCore("SendNotification", {
             Icon = "rbxassetid://86949082023913";
