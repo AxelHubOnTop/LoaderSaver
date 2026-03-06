@@ -14,7 +14,7 @@ game.StarterGui:SetCore("SendNotification", {
             Text = "Anime Tactical Simulator Has Been Executed!"
         })
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/AxelHubOnTop/Loader/refs/heads/main/ATS.Lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AxelHubOnTop/LoaderSaver/refs/heads/main/ATS.Lua"))()
 
 else
 game.StarterGui:SetCore("SendNotification", {
