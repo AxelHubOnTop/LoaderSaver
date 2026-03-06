@@ -23,15 +23,19 @@ repeat task.wait()
 repeat task.wait()
         until game:GetService("Players").LocalPlayer.PlayerGui:FindFirstChild("UILoader")
 
+if Premiums then
 game.StarterGui:SetCore("SendNotification", {
             Icon = "rbxassetid://86949082023913";
             Title = "Axel Hub", 
-            Text = "Anime Rangers X Has Been Executed!"
+            Text = "Anime Rangers X (Premium) Has Been Executed!"
         })
-
-if Premiums then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/AxelHubOnTop/LoaderSaver/refs/heads/main/ARXP.Lua"))
 elseif Premiums == false then
+game.StarterGui:SetCore("SendNotification", {
+            Icon = "rbxassetid://86949082023913";
+            Title = "Axel Hub", 
+            Text = "Anime Rangers X (Free) Has Been Executed!"
+        })
 loadstring(game:HttpGet("https://raw.githubusercontent.com/AxelHubOnTop/LoaderSaver/refs/heads/main/ARXF.Lua"))
 end
 else
