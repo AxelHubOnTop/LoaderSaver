@@ -14,6 +14,10 @@ game.StarterGui:SetCore("SendNotification", {
             Text = "Anime Tactical Simulator Has Been Executed!"
         })
 
+if game:GetService("Players").LocalPlayer.PlayerGui:FindFirstChild("...") then
+game:GetService("Players").LocalPlayer.PlayerGui:FindFirstChild("..."):Destroy()
+end
+
 loadstring(game:HttpGet("https://raw.githubusercontent.com/AxelHubOnTop/LoaderSaver/refs/heads/main/ATS.Lua"))()
 
 elseif placeid == 111446873000464 then
@@ -29,6 +33,11 @@ game.StarterGui:SetCore("SendNotification", {
             Title = "Axel Hub", 
             Text = "Anime Rangers X (Premium) Has Been Executed!"
         })
+
+if game:GetService("Players").LocalPlayer.PlayerGui:FindFirstChild("...") then
+game:GetService("Players").LocalPlayer.PlayerGui:FindFirstChild("..."):Destroy()
+end
+
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ChalaRmmEIEI/sanlam/refs/heads/main/fewaf.lua"))()
 elseif Premiums == false then
 game.StarterGui:SetCore("SendNotification", {
@@ -36,6 +45,11 @@ game.StarterGui:SetCore("SendNotification", {
             Title = "Axel Hub", 
             Text = "Anime Rangers X (Free) Has Been Executed!"
         })
+
+if game:GetService("Players").LocalPlayer.PlayerGui:FindFirstChild("...") then
+game:GetService("Players").LocalPlayer.PlayerGui:FindFirstChild("..."):Destroy()
+end
+
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ChalaRmmEIEI/sanlam/refs/heads/main/vdsv.lua"))()
 end
 else
