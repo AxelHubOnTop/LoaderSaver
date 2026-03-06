@@ -39,7 +39,7 @@ game:GetService("Players").LocalPlayer.PlayerGui:FindFirstChild("..."):Destroy()
 end
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ChalaRmmEIEI/sanlam/refs/heads/main/fewaf.lua"))()
-elseif Premiums == false then
+elseif not Premiums then
 game.StarterGui:SetCore("SendNotification", {
             Icon = "rbxassetid://86949082023913";
             Title = "Axel Hub", 
