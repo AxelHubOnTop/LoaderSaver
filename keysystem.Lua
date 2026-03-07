@@ -500,7 +500,6 @@ function Lib:Init(Settings)
 
 	-- Creates Get Key button
 	CreateButton("Get Key",Color3.fromRGB(144, 250, 144),function()
-		KeyBox_1.Text=Settings.Link
 		KeyBox_1:CaptureFocus()
 		if typeof(setclipboard)=="function" then
 			setclipboard(Settings.Link)
