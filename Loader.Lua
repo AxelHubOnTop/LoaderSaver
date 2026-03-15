@@ -20,6 +20,10 @@ end
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/AxelHubOnTop/LoaderSaver/refs/heads/main/ATS.Lua"))()
 
+elseif placeid == 76806550943352 then
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AxelHubOnTop/LoaderSaver/refs/heads/main/paradox.Lua"))()
+
 elseif placeid == 111446873000464 then
 repeat task.wait()
         until game:IsLoaded()
