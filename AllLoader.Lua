@@ -1,6 +1,6 @@
 local placeid = game.PlaceId
 
-if placeid == 90738171169572 or placeid == 111446873000464 then
+if placeid == 90738171169572 or placeid == 111446873000464 or placeid == 76806550943352 then
 
 repeat task.wait()
         until game:IsLoaded()
