@@ -17,7 +17,7 @@ elseif game:GetService("Players").LocalPlayer:FindFirstChild("Awakening") then
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/AxelHubOnTop/LoaderSaver/refs/heads/main/ATQ.Lua"))()
 
-elseif placeid == 75159314259063 or placeid == 77747658251236 or placeid == 99684056491472 or placeid == 123955125827131 then
+elseif placeid == 75159314259063 or placeid == 77747658251236 or placeid == 99684056491472 or placeid == 123955125827131 or placeid == 96767841099256 then
     repeat task.wait()
         until game:IsLoaded()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/AxelHubOnTop/LoaderSaver/refs/heads/main/sailorpiece.Lua"))()
