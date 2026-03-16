@@ -24,6 +24,29 @@ elseif placeid == 76806550943352 then
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/AxelHubOnTop/LoaderSaver/refs/heads/main/paradox.Lua"))()
 
+elseif placeid == 135660046771811 then
+
+if Premiums then
+game.StarterGui:SetCore("SendNotification", {
+            Icon = "rbxassetid://86949082023913";
+            Title = "Axel Hub (Premium)", 
+            Text = "Rollback Rider Defenders Has Been Execute"
+        })
+
+loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/RayVinz/rollbackmapkakkak/refs/heads/main/rollbackmapkakak.lua"))()
+
+if game:GetService("Players").LocalPlayer.PlayerGui:FindFirstChild("...") then
+game:GetService("Players").LocalPlayer.PlayerGui:FindFirstChild("..."):Destroy()
+end
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ChalaRmmEIEI/sanlam/refs/heads/main/fewaf.lua"))()
+elseif not Premiums then
+game.Players.LocalPlayer:Kick("You Are Not Premium!")
+
+if game:GetService("Players").LocalPlayer.PlayerGui:FindFirstChild("...") then
+game:GetService("Players").LocalPlayer.PlayerGui:FindFirstChild("..."):Destroy()
+end
+
 elseif placeid == 111446873000464 then
 repeat task.wait()
         until game:IsLoaded()
