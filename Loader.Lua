@@ -46,6 +46,7 @@ game.Players.LocalPlayer:Kick("You Are Not Premium!")
 if game:GetService("Players").LocalPlayer.PlayerGui:FindFirstChild("...") then
 game:GetService("Players").LocalPlayer.PlayerGui:FindFirstChild("..."):Destroy()
 end
+end
 
 elseif placeid == 111446873000464 then
 repeat task.wait()
