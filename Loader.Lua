@@ -39,7 +39,6 @@ if game:GetService("Players").LocalPlayer.PlayerGui:FindFirstChild("...") then
 game:GetService("Players").LocalPlayer.PlayerGui:FindFirstChild("..."):Destroy()
 end
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/ChalaRmmEIEI/sanlam/refs/heads/main/fewaf.lua"))()
 elseif not Premiums then
 game.Players.LocalPlayer:Kick("You Are Not Premium!")
 
@@ -66,7 +65,7 @@ if game:GetService("Players").LocalPlayer.PlayerGui:FindFirstChild("...") then
 game:GetService("Players").LocalPlayer.PlayerGui:FindFirstChild("..."):Destroy()
 end
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/ChalaRmmEIEI/sanlam/refs/heads/main/fewaf.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/maimearaikub/ooofea/refs/heads/main/apk.lua"))()
 elseif not Premiums then
 game.StarterGui:SetCore("SendNotification", {
             Icon = "rbxassetid://86949082023913";
@@ -78,7 +77,7 @@ if game:GetService("Players").LocalPlayer.PlayerGui:FindFirstChild("...") then
 game:GetService("Players").LocalPlayer.PlayerGui:FindFirstChild("..."):Destroy()
 end
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/ChalaRmmEIEI/sanlam/refs/heads/main/vdsv.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/maimearaikub/ooofea/refs/heads/main/afk.lua"))()
 end
 else
 game.StarterGui:SetCore("SendNotification", {
