@@ -4,6 +4,8 @@ repeat task.wait()
         repeat task.wait()
         until game.Players.LocalPlayer
 
+loaded = true
+
 local placeid = game.PlaceId
 
 if placeid == 90738171169572 or placeid == 111446873000464 or placeid == 76806550943352 or placeid == 135660046771811 then
