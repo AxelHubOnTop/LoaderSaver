@@ -4,6 +4,9 @@ repeat task.wait()
         repeat task.wait()
         until game.Players.LocalPlayer
 
+        repeat task.wait()
+        until game.Players.LocalPlayer.Character
+
 loaded = true
 
 local placeid = game.PlaceId
