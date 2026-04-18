@@ -20,6 +20,8 @@ elseif placeid == 75159314259063 or placeid == 77747658251236 or placeid == 9968
 loadstring(game:HttpGet("https://raw.githubusercontent.com/AxelHubOnTop/LoaderSaver/refs/heads/main/sailorpiece.Lua"))()
 elseif placeid == 15759515082 or placeid == 4520749081 or placeid == 6381829480 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/AxelHubOnTop/LoaderSaver/refs/heads/main/KL.Lua"))()
+elseif placeid == 95630541662383 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AxelHubOnTop/LoaderSaver/refs/heads/main/WORLDFIGHTER.Lua"))()
 elseif placeid == 78754030900809 then
 loadstring(game:HttpGet('https://raw.githubusercontent.com/LittleSnowX/WTFSTUDIOS/refs/heads/main/Anime-Leveling.lua'))()
 elseif game:GetService("ReplicatedStorage"):FindFirstChild("REFLEX_DEVTOOLS") then
