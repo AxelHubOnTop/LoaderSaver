@@ -12,8 +12,6 @@ if placeid == 75159314259063 or placeid == 77747658251236 or placeid == 99684056
     repeat task.wait()
         until game:IsLoaded()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/AxelHubOnTop/LoaderSaver/refs/heads/main/sailorpiece.Lua"))()
-elseif placeid == 15759515082 or placeid == 4520749081 or placeid == 6381829480 then
-loadstring(game:HttpGet("https://raw.githubusercontent.com/AxelHubOnTop/LoaderSaver/refs/heads/main/KL.Lua"))()
 elseif placeid == 95630541662383 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/AxelHubOnTop/LoaderSaver/refs/heads/main/WORLDFIGHTER.Lua"))()
 elseif placeid == 134963296781989 or placeid == 105342279726230 or placeid == 95740619340896 then
