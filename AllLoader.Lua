@@ -24,7 +24,7 @@ elseif game.PlaceId == 18923620224 then
 loadstring(game:HttpGet('https://raw.githubusercontent.com/AxelHubOnTop/LoaderSaver/refs/heads/main/AW3.Lua'))()
 elseif game.PlaceId == 113236157544232 then
 loadstring(game:HttpGet('https://raw.githubusercontent.com/AxelHubOnTop/LoaderSaver/refs/heads/main/ASA.Lua'))()
-elseif game.PlaceId == 97387256206808 or game.PlaceId == 135348858107726 then
+elseif game.PlaceId == 97387256206808 or game.PlaceId == 135348858107726 or game.PlaceId == 97387256206808 then
 loadstring(game:HttpGet('https://raw.githubusercontent.com/AxelHubOnTop/LoaderSaver/refs/heads/main/BB.Lua'))()
 elseif game:GetService("ReplicatedStorage"):FindFirstChild("REFLEX_DEVTOOLS") then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/AxelHubOnTop/LoaderSaver/refs/heads/main/AOVR.Lua"))()
