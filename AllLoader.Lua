@@ -27,6 +27,9 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/AxelHubOnTop/LoaderSa
 elseif game.PlaceId == 97387256206808 or game.PlaceId == 135348858107726 or game.PlaceId == 91071552992781 then
 if game.PlaceId == 135348858107726 or game.PlaceId == 91071552992781 then
 raidworld = true
+if game.PlaceId == 91071552992781 then
+dragonworld = true
+end
 elseif game.PlaceId == 97387256206808 then
 normalworld = true
 end
