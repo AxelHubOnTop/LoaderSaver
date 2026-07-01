@@ -24,6 +24,8 @@ elseif game.PlaceId == 18923620224 then
 loadstring(game:HttpGet('https://raw.githubusercontent.com/AxelHubOnTop/LoaderSaver/refs/heads/main/AW3.Lua'))()
 elseif game.PlaceId == 113236157544232 then
 loadstring(game:HttpGet('https://raw.githubusercontent.com/AxelHubOnTop/LoaderSaver/refs/heads/main/ASA.Lua'))()
+elseif game.PlaceId == 6918802270 then
+loadstring(game:HttpGet('https://raw.githubusercontent.com/AxelHubOnTop/LoaderSaver/refs/heads/main/HS.Lua'))()
 elseif game.PlaceId == 97387256206808 or game.PlaceId == 135348858107726 or game.PlaceId == 91071552992781 then
 if game.PlaceId == 135348858107726 or game.PlaceId == 91071552992781 then
 raidworld = true
