@@ -2,7 +2,7 @@ if game.PlaceId == 134963296781989 then
 world1 = true
 elseif game.PlaceId == 105342279726230 then
 world2 = true
-elseif game.PlaceId == 95740619340896 or game.PlaceId == 106357754220636 or game.PlaceId == 130793476404022 then
+elseif game.PlaceId == 95740619340896 or game.PlaceId == 106357754220636 or game.PlaceId == 130793476404022 or game.PlaceId == 136446612736997 then
 dungeon = true
 end
 
