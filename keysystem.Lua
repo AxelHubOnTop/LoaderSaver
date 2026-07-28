@@ -509,10 +509,18 @@ function Lib:Init(Settings)
 		end
 	end)
 
+    CreateButton("Redeem",Color3.fromRGB(144, 250, 144),function()
+		KeyBox_1:CaptureFocus()
+		if typeof(setclipboard)=="function" then
+			print("Redeeming Key : Axel Hub")
+		end
+	end)
+
 	-- Creates Get Key button
 	CreateButton("Get Key",Color3.fromRGB(144, 250, 144),function()
 		KeyBox_1:CaptureFocus()
 		if typeof(setclipboard)=="function" then
+			KeyBox_1.Text = Settings.Link
 			setclipboard(Settings.Link)
 		end
 	end)
