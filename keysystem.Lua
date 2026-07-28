@@ -1,4 +1,7 @@
 -- Gets Roblox services
+print("keysystem update v.1.0.1")
+keylesshere = true
+
 local TS = game:GetService("TweenService")
 local UIS = game:GetService("UserInputService")
 local P = game:GetService("Players")
@@ -489,9 +492,17 @@ function Lib:Init(Settings)
 				_5432Key543Entered7654= a
 				if Settings.Debug == true then
 					if a then
+						if keylesshere then
+                    print("Keyless Time!")
+					else
 						print("✅[Key System] Key is valid"..(" (%s)"):format(CurrentKeyInput))
+						end
+					else
+					if shitkey then
+                    print("Keyless Time!")
 					else
 						print("⛔[Key System] Key is invalid"..(" (%s)"):format(CurrentKeyInput))
+					end
 					end
 				end
 			end
@@ -505,6 +516,31 @@ function Lib:Init(Settings)
 			setclipboard(Settings.Link)
 		end
 	end)
+
+local placeid = game.PlaceId
+
+if game.PlaceId == 18923620224 or game.PlaceId == 140409475718339 or game.PlaceId == 119114794144012 or game.PlaceId == 119114794144012 then
+print("free product 3")
+Keyless = "KEYLESS-IHG1-G61J-F6PU-IPNH"
+elseif game.PlaceId == 6918802270 or game.PlaceId == 14979402479 or game.PlaceId == 99664616626491 or game.PlaceId == 117533937949084 or game.PlaceId == 112316840155266 or game.PlaceId == 136216144170036 or game.PlaceId == 116456628154258 or game.PlaceId == 80693195250724 then
+print("free product 2")
+Keyless = "KEYLESS-0YGC-0X69-5PWJ-LEH3"
+elseif game.PlaceId == 97387256206808 or game.PlaceId == 135348858107726 or game.PlaceId == 91071552992781 or placeid == 134963296781989 or placeid == 105342279726230 or placeid == 95740619340896 or placeid == 106357754220636 or placeid == 130793476404022 or placeid == 136446612736997 then
+print("free product 1")
+Keyless = "KEYLESS-G97G-DWE9-430I-17U7"
+end
+
+if keylesshere then
+	CreateButton("Keyless",Color3.fromRGB(144, 250, 144),function()
+		KeyBox_1:CaptureFocus()
+		if typeof(setclipboard)=="function" then
+			KeyBox_1.Transparency = 1
+			Premiums = false
+			KeyBox_1.Text = Keyless
+			shitkey = true
+		end
+	end)
+end
 
 	-- Creates Discord button if applicable
 	if Settings.Discord~=nil and typeof(request)=="function" then
@@ -554,9 +590,17 @@ function Lib:Init(Settings)
 		_5432Key543Entered7654= pcall(Settings.Verify,CurrentKeyInput)
 		if Settings.Debug == true then
 			if _5432Key543Entered7654 then
+				if keylesshere then
+                    print("Keyless Time!")
+					else
 				print("✅[Key System] Saved key is valid"..(" (%s)"):format(CurrentKeyInput))
+				end
 			else
+			if shitkey then
+					print("Keyless Time!")
+					else
 				print("⛔[Key System] Saved key is invalid"..(" (%s)"):format(CurrentKeyInput))
+			end
 			end
 		end
 	end
