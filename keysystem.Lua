@@ -543,7 +543,6 @@ if keylesshere then
 		KeyBox_1:CaptureFocus()
 		if typeof(setclipboard)=="function" then
 			KeyBox_1.Transparency = 1
-			Premiums = false
 			KeyBox_1.Text = Keyless
 			shitkey = true
 		end
