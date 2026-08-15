@@ -26,6 +26,8 @@ elseif game.PlaceId == 113236157544232 then
 loadstring(game:HttpGet('https://raw.githubusercontent.com/AxelHubOnTop/LoaderSaver/refs/heads/main/ASA.Lua'))()
 elseif game.PlaceId == 117533937949084 or game.PlaceId == 112316840155266 or game.PlaceId == 136216144170036 or game.PlaceId == 116456628154258 or game.PlaceId == 80693195250724 then
 loadstring(game:HttpGet('https://raw.githubusercontent.com/AxelHubOnTop/LoaderSaver/refs/heads/main/IRSL.Lua'))()
+elseif game.PlaceId == 116173040971120 or game.PlaceId == 129932912185311 or game.PlaceId == 135941552414666 or game.PlaceId == 8946565814 or game.PlaceId == 122795195768418 or game.PlaceId == 110213473804276 or game.PlaceId == 75728308915894 then
+loadstring(game:HttpGet('https://raw.githubusercontent.com/AxelHubOnTop/LoaderSaver/refs/heads/main/AORI.Lua'))()
 elseif game.PlaceId == 84515722934860 then
 loadstring(game:HttpGet('https://raw.githubusercontent.com/AxelHubOnTop/LoaderSaver/refs/heads/main/AEK.Lua'))()
 elseif game.PlaceId == 6918802270 or game.PlaceId == 14979402479 or game.PlaceId == 99664616626491 then
