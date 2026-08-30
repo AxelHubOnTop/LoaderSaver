@@ -16,7 +16,7 @@ elseif game.GameId == 9931749389 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/AxelHubOnTop/LoaderSaver/refs/heads/main/DUQ.Lua"))()
 elseif placeid == 95630541662383 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/AxelHubOnTop/LoaderSaver/refs/heads/main/WORLDFIGHTER.Lua"))()
-elseif game.PlaceId == 106484206883664 or game.PlaceId == 123911322850599595164747443517 then
+elseif game.PlaceId == 106484206883664 or game.GameId == 9656201728 then
 loadstring(game:HttpGet('https://raw.githubusercontent.com/AxelHubOnTop/LoaderSaver/refs/heads/main/DULR.Lua'))()
 elseif placeid == 134963296781989 or placeid == 105342279726230 or placeid == 95740619340896 or placeid == 106357754220636 or placeid == 130793476404022 or placeid == 136446612736997 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/AxelHubOnTop/LoaderSaver/refs/heads/main/CloverOrigins.Lua"))()
