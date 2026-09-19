@@ -16,6 +16,8 @@ elseif game.GameId == 9931749389 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/AxelHubOnTop/LoaderSaver/refs/heads/main/DUQ.Lua"))()
 elseif placeid == 95630541662383 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/AxelHubOnTop/LoaderSaver/refs/heads/main/WORLDFIGHTER.Lua"))()
+elseif placeid == 113290951185459 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AxelHubOnTop/LoaderSaver/refs/heads/main/animedice.Lua"))()
 elseif game.PlaceId == 106484206883664 or game.GameId == 9656201728 then
 repeat task.wait()
         until game:GetService("Players").LocalPlayer.PlayerGui:FindFirstChild("Loading")
