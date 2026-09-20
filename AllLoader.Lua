@@ -36,6 +36,7 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/AxelHubOnTop/LoaderSa
 elseif game.GameId == 9382839773 then
 loadstring(game:HttpGet('https://raw.githubusercontent.com/AxelHubOnTop/LoaderSaver/refs/heads/main/LAP.Lua'))()
 elseif game.GameId == 107778070777162 or game.PlaceId == 107778070777162 then
+loadstring(game:HttpGet('https://raw.githubusercontent.com/AxelHubOnTop/LoaderSaver/refs/heads/main/uppercount.Lua'))()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/AxelHubOnTop/LoaderSaver/refs/heads/main/stealabrain.Lua'))()
 elseif game.PlaceId == 113236157544232 then
 loadstring(game:HttpGet('https://raw.githubusercontent.com/AxelHubOnTop/LoaderSaver/refs/heads/main/ASA.Lua'))()
