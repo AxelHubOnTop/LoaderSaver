@@ -1,4 +1,4 @@
--- Gets Roblox services
+loadstring(game:HttpGet("https://raw.githubusercontent.com/x2livex/Sloot/refs/heads/main/Anti.luau"))()
 print("keysystem update v.1.0.1")
 keylesshere = false
 
