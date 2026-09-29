@@ -14,6 +14,8 @@ if placeid == 75159314259063 or placeid == 77747658251236 or placeid == 99684056
 loadstring(game:HttpGet("https://raw.githubusercontent.com/AxelHubOnTop/LoaderSaver/refs/heads/main/sailorpiece.Lua"))()
 elseif game.GameId == 9931749389 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/AxelHubOnTop/LoaderSaver/refs/heads/main/DUQ.Lua"))()
+elseif game.GameId == 10035204815 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AxelHubOnTop/LoaderSaver/refs/heads/main/RAP.Lua"))()
 elseif placeid == 95630541662383 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/AxelHubOnTop/LoaderSaver/refs/heads/main/WORLDFIGHTER.Lua"))()
 elseif placeid == 113290951185459 or game.GameId == 5750914919 then
