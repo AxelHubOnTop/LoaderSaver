@@ -531,6 +531,9 @@ if game.PlaceId == 107778070777162 then
 print("free product steal an egg")
 keylesshere = true
 Keyless = "KEYLESSER-0NNG-D4LW-DMTC-89WR"
+elseif game.PlaceId == 9880286438 then
+print("free product legacy piece")
+keylesshere = true
 elseif game.GameId == 5595353122 then
 print("free product slayer 2")
 keylesshere = true
