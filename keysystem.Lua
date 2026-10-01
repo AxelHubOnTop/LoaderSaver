@@ -527,7 +527,19 @@ function Lib:Init(Settings)
 
 local placeid = game.PlaceId
 
-if game.PlaceId == 18923620224 or game.PlaceId == 140409475718339 or game.PlaceId == 119114794144012 or game.PlaceId == 119114794144012 then
+if game.PlaceId == 107778070777162 then
+print("free product steal an egg")
+keylesshere = true
+Keyless = "KEYLESSER-0NNG-D4LW-DMTC-89WR"
+if game.PlaceId == 9880286438 then
+print("free product legacy piece")
+keylesshere = true
+Keyless = "KEYLESS-NIFG-BK4Q-SP7B-L0LQ"
+elseif game.GameId == 5595353122 then
+print("free product slayer 2")
+keylesshere = true
+Keyless = "KEYLESS1TIME-ELRZ-7R5X-F4EK-H632"
+elseif game.PlaceId == 18923620224 or game.PlaceId == 140409475718339 or game.PlaceId == 119114794144012 or game.PlaceId == 119114794144012 then
 print("free product 3")
 Keyless = "KEYLESS-IHG1-G61J-F6PU-IPNH"
 elseif game.PlaceId == 6918802270 or game.PlaceId == 14979402479 or game.PlaceId == 99664616626491 or game.PlaceId == 117533937949084 or game.PlaceId == 112316840155266 or game.PlaceId == 136216144170036 or game.PlaceId == 116456628154258 or game.PlaceId == 80693195250724 then
