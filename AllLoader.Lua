@@ -20,6 +20,24 @@ elseif game.GameId == 5595353122 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/AxelHubOnTop/LoaderSaver/refs/heads/main/SLA.Lua"))()
 elseif game.GameId == 10035204815 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/AxelHubOnTop/LoaderSaver/refs/heads/main/RAP.Lua"))()
+elseif game.GameId == 10512942223 then
+if placeid == 109151342576374 then
+repeat task.wait()
+until game.Players.LocalPlayer.Character and game.Players.LocalPlayer.Character:FindFirstChild("HumanoidRootPart")
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(0,200,0)
+if not workspace:FindFirstChild("AxelHub_Part") then
+axelhubpart = Instance.new("Part")
+axelhubpart.Parent = workspace
+end
+axelhubpart.Name = "AxelHub_Part"
+axelhubpart.Anchored = true
+axelhubpart.CanCollide = true
+axelhubpart.Size = Vector3.new(5,0.2,5)
+axelhubpart.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(0,-3.1,0)
+end
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AxelHubOnTop/LoaderSaver/refs/heads/main/az.Lua"))()
 elseif placeid == 95630541662383 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/AxelHubOnTop/LoaderSaver/refs/heads/main/WORLDFIGHTER.Lua"))()
 elseif placeid == 113290951185459 or game.GameId == 5750914919 then
