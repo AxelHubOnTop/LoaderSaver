@@ -527,7 +527,11 @@ function Lib:Init(Settings)
 
 local placeid = game.PlaceId
 
-if game.PlaceId == 107778070777162 or game.GameId == 10512942223 then
+if game.GameId == 10512942223 and MainUi == true then
+print("free product 3")
+keylesshere = true
+Keyless = "KEYLESS-25VR-SNCD-QPP8-YBTQ"
+elseif game.PlaceId == 107778070777162 or game.GameId == 10512942223 then
 print("free product 1")
 keylesshere = true
 getridoffree = false
