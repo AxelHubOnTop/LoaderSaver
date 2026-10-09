@@ -36,8 +36,11 @@ axelhubpart.CanCollide = true
 axelhubpart.Size = Vector3.new(5,0.2,5)
 axelhubpart.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(0,-3.1,0)
 end
-
+if MainUi then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AxelHubOnTop/LoaderSaver/refs/heads/main/AZ.Lua"))()
+else
 loadstring(game:HttpGet("https://raw.githubusercontent.com/AxelHubOnTop/LoaderSaver/refs/heads/main/az.Lua"))()
+end
 elseif placeid == 95630541662383 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/AxelHubOnTop/LoaderSaver/refs/heads/main/WORLDFIGHTER.Lua"))()
 elseif placeid == 113290951185459 or game.GameId == 5750914919 then
