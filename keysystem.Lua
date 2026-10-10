@@ -533,7 +533,7 @@ keylesshere = true
 Keyless = "KEYLESS-25VR-SNCD-QPP8-YBTQ"
 elseif game.PlaceId == 107778070777162 or game.GameId == 10512942223 then
 print("free product 1")
-keylesshere = true
+keylesshere = false
 getridoffree = false
 Keyless = "KEYLESSER-0NNG-D4LW-DMTC-89WR"
 elseif game.PlaceId == 9880286438 then
